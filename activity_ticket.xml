@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical"
+    tools:context=".ticket">
+
+    <EditText
+        android:id="@+id/txtDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe aqui el codigo dado" />
+
+    <Button
+        android:id="@+id/botontex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GENERAR CODIGO"
+        tools:text="Generar codigo" />
+
+    <ImageView
+        android:id="@+id/codeqr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/botonv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="VOLVER"
+        tools:text="VOLVER" />
+
+
+</LinearLayout>
